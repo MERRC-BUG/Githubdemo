@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unit 5 - html</title> 
+</head>
+<body>
+    <!-- Văn bản -->
+     <div>
+        <h1>Đây là H1</h1>
+        <h2>Đây là H2</h2>
+        <h3>Đây là H3</h3>
+        <h4>Đây là H2</h4>
+        <H5>Đây là H2</H5>
+        <h6>Đây là H2</h6>
+        <i>Chữ nghiêng</i>
+        <b>Chữ đậm</b>
+     </div>
+    <!-- XHTML -->
+     <div>
+        <p>Đoạn văn dài</p><p>Dài lắm</p>
+        <span>Đoạn văn ngắn</span> <p>ngắn lắm</p>
+        <!-- P: block: Chiếm diện tích hết chiều dài -->
+         <!-- Span: inline: Độ dài bên trong -->
+     </div>
+     <!-- Hiển thị link -->
+      <a href="https://www.google.com/" target="_blank">Đây là đường link</a>
+      <!-- href: Thuộc tính của thẻ(Attribute/Property) -->
+    <!-- image -->
+     <img src="../../image/co-gai.jpeg">
+
+      <ul>
+        <li>abc</li>
+        <li>def</li>
+        <li>xyz</li>
+      </ul>
+
+     <input type="file" value="ABC" />
+     <textarea name="" id=""></textarea>
+
+     <!-- html - html5 --> cải tiến
+      Thêm nhiều thẻ hơn
+      <iframe src="" frameborder="0"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sGxw7ipTrq8?si=9CeNF-kL7HtdFaNH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     <canvas></canvas>
+     <!-- DANH SÁCH -->
+      <!-- ul: unorder list, ol: order list -->
+      
+    </body>
+</html>
