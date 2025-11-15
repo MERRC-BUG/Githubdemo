@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 2 Method: POST/GET -->
+    <form action="https://shopee.vn/search" method="">
+        <fieldset>
+            <legend>Tìm kiếm</legend>
+            <input name="keyword" type="text" placeholder="Nhập email">
+            <!-- <input name="password" type="text" placeholder="Nhập mật khẩu"> -->
+            <button type="submit">Gửi</button>
+        </fieldset>
+    </form>
+    <script>
+        fetch('https://reqres.in/api/users', {
+        method: 'POST',
+        headers: {
+            'x-api-key': 'reqres-free-v1',
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            name: 'John Doe',
+            job: 'Developer'
+        })
+        })
+        .then(res => res.json())
+        .then(data => console.log(data))
+    </script>
+</body>
+</html>
